@@ -28,7 +28,7 @@ jobs:
       - name: Build Docker image
         run: docker build -t demo-app .
 
-      - name: Run Linter
+      - name: Run linter
         run: npm run lint
 
       - name: Generate code coverage
